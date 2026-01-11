@@ -1,0 +1,67 @@
+/* General app background and font */
+.stApp {
+  background-color: #d7ccc8;  
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title */
+.main-title {
+  color: #4e342e; 
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de cada mensaje */
+.message-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* User message: derecha */
+.user-message {
+  background-color: #e0f7fa;
+  color: #006064; 
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  max-width: 70%;
+  width: auto;
+  text-align: left;
+  margin-left: auto;
+  margin-right: 10px;
+  word-wrap: break-word;
+}
+
+/* Assistant message: izquierda */
+.assistant-message {
+  background-color: #f1f8e9;
+  color: #33691e;    
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  max-width: 90%;
+  width: auto;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: 0px;
+  word-wrap: break-word;
+}
+
+.stTextInput > div > div > input {
+  border: 1px solid #d7ccc8;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  color: #4e342e;
+}
+
+.image-container img.message-image {
+    max-width: 200px;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    display: block;
+}

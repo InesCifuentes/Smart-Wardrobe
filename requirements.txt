@@ -1,0 +1,7 @@
+streamlit
+faiss-cpu
+pillow
+torch
+transformers
+tqdm
+cohere
