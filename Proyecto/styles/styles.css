@@ -1,12 +1,12 @@
 /* General app background and font */
 .stApp {
-  background-color: #d7ccc8;  
+  background-color: #d7ccc8;  /* fondo beige claro */
   font-family: 'Arial', sans-serif;
 }
 
 /* Title */
 .main-title {
-  color: #4e342e; 
+  color: #4e342e; /* marrón oscuro */
   font-size: 2em;
   font-weight: bold;
   text-align: left;
@@ -21,8 +21,7 @@
 
 /* User message: derecha */
 .user-message {
-  background-color: #e0f7fa;
-  color: #006064; 
+  background-color: #e0d6cc; /* beige ligeramente más claro que el fondo */
   padding: 10px 15px;
   border-radius: 20px;
   display: inline-block;
@@ -36,8 +35,7 @@
 
 /* Assistant message: izquierda */
 .assistant-message {
-  background-color: #f1f8e9;
-  color: #33691e;    
+  background-color: #ece2de;
   padding: 10px 15px;
   border-radius: 20px;
   display: inline-block;
@@ -49,14 +47,16 @@
   word-wrap: break-word;
 }
 
+/* Input text */
 .stTextInput > div > div > input {
-  border: 1px solid #d7ccc8;
+  background-color: #ece2de; 
   border-radius: 5px;
   padding: 10px;
-  background-color: #f5f5f5;
-  color: #4e342e;
+  background-color: #f5f1ec; /* beige muy claro */
+  color: #4e342e; /* texto marrón oscuro */
 }
 
+/* Imagen */
 .image-container img.message-image {
     max-width: 200px;
     border-radius: 12px;
